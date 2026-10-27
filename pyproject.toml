@@ -1,0 +1,23 @@
+[project]
+name = "gvplab"
+version = "0.1.0"
+description = "Simulation sandbox for extending YouTube brand demand to Google Video Partners inventory: auctions, brand safety, incremental reach and privacy-safe measurement."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Tong Wu" }]
+dependencies = ["numpy>=1.26", "pandas>=2.1", "pydantic>=2.5", "matplotlib>=3.8", "tabulate>=0.9", "requests>=2.31"]
+
+[project.optional-dependencies]
+app = ["streamlit>=1.35"]
+dev = ["pytest>=8.0"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["gvplab"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

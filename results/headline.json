@@ -1,0 +1,23 @@
+{
+  "seeds": 5,
+  "reach_lift_vs_youtube_only": 0.245570172339893,
+  "vcpm_change_vs_youtube_only": -0.10583534025116681,
+  "cost_per_1k_reached_change": -0.1971501314796853,
+  "gvp_only_share_of_reach": 0.3928642743089016,
+  "unsafe_rate_no_filter": 0.11610089530020748,
+  "unsafe_rate_keyword": 0.022804234344947473,
+  "keyword_over_block": 0.14404320740626453,
+  "keyword_leak": 0.13975213901802044,
+  "keyword_tricky_accuracy": 0.41487906432691773,
+  "suitable_publisher_revenue_lost_share": 0.13662407434302365,
+  "first_price_naive_reach_change": -0.3327699158465152,
+  "first_price_shaded_reach_change": -0.06407595821863835,
+  "shading_reach_recovery_vs_naive": 0.40272068060953464,
+  "first_price_shaded_publisher_revenue_change": 0.10761381960533996,
+  "dma_eps1_k10_error": 0.005557768860587819,
+  "dma_eps1_k50_error": 0.16448692339879684,
+  "dma_eps1_k50_suppressed_share": 0.16501185705169302,
+  "lift_estimate_mean": 0.019007824350428693,
+  "lift_true_mean": 0.013843210078095691,
+  "lift_significant_runs": 2
+}

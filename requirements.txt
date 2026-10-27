@@ -1,0 +1,8 @@
+numpy>=1.26
+pandas>=2.1
+pydantic>=2.5
+matplotlib>=3.8
+tabulate>=0.9
+requests>=2.31
+streamlit>=1.35
+pytest>=8.0
